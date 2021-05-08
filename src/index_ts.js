@@ -9,7 +9,7 @@ import gemini from "./assets/saga-kanon.png";
 import data from "./data.json";
 
 // Importando una clase.js
-import { HelloWorld } from "./components/helloWorld";
+import { HelloWorld } from "./components/helloWorld.ts";
 
 
 
@@ -31,7 +31,7 @@ nuevoArreglo();
 // Creando elemento padre
 const divPadre = document.querySelector('#app');
 
-const saludar = new HelloWorld('Vanilla JS');
+const saludar = new HelloWorld('TypeScript');
 
 // Creando Elementos hijos
 const h1 = document.createElement('h1');

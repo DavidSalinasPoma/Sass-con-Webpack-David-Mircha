@@ -9,7 +9,13 @@
 # npm install image-webpack-loader --save-dev
 
 <!-- Trabajando con JSON en webpack -->
-# No hay necedidad de usar loaders
+# No hay necesidad de usar loaders
 
 <!-- Configurando las entradas y salidas -->
 # entry || output
+
+<!-- Hola mundo con typeScript -->
+# npm i -D typescript ts-loader
+
+<!-- Hola mundo con reactJS -->
+# npm i react react-dom   ---  npm i -D @babel/preset-react
